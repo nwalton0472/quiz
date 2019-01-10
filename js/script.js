@@ -8,7 +8,20 @@ $(document).ready(function() {
         var q1Input = $("#question1").val();
         var q2Input = $("#question2").val();
         var q3Input = $("#question3").val();
+        findScore1(q1Input);
         var totalScore;
     });
 
 });
+
+function findScore1(answer) {
+    console.log(answer);
+}
+
+function findScore2(answer){
+    
+}
+
+function findScore3(answer){
+    
+}
